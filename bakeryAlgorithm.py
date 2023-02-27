@@ -80,7 +80,7 @@ def unlock(process_id: int):
 
 def init_global_variables(thread_count: int, runs: int):
     """
-    Initializes necessary and configuration variables
+    Initializes necessary and configuration global variables
 
     Arguments:
         thread_count - number of threads to be created
