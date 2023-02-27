@@ -56,7 +56,7 @@ def lock(process_id: int):
 
     # checks another threads
     for index, _ in enumerate(number):
-        # waits for another process obtains theirs order number
+        # waits for another processes obtains theirs order number
         while entering[index]:
             pass
 
