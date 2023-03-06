@@ -134,7 +134,7 @@ to waitingroom (shared.customers += 1).
    ```
 
 The code snippet above show customer function, customer give signal to barber, that he/she is satisfied with haircut **
-shared.customer_done.signal** (get_haircut(i)finished) and than wait for barber to finish haircut**
+shared.customer_done.signal** ( get_haircut(i) finished ) and than wait for barber to finish haircut **
 shared.customer_done.signal**. After that customer leaves **shared.customers -= 1** the barbershop and will comeback
 afer his/her hair grows out (after growing_hair() finished). The integrity of the customer variable must be again
 proteced.
