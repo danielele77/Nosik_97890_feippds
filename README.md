@@ -3,9 +3,8 @@
 This module contains implenentation of Lamport's bakery algorithm in Python (version 3.10) using`fei.ppds`
 module (`pip install --user fei.ppds`). The implementation is part of an assignment from the Parallel Programming and
 Distributed Systems course taught at the Slovak University of Technology. The code in this model is impleted by pseudo
-code preseted at lecture from PPDS
-course [[1]]([2021-06 [seminár] Ďalšie synchronizačné úlohy: holičstvo, h2o, rieka, húsenková dráha - YouTube](https://youtu.be/IOeO6RDhhac))
-. The terms process and thread are loosely substitutable in the context of this module.
+code preseted at lecture from PPDS course [[1]](https://youtu.be/IOeO6RDhhac). The terms process and thread are loosely
+substitutable in the context of this module.
 
 ## The problem
 
@@ -22,8 +21,7 @@ waiting room (with N seats) and barbers room (with 1 steat). In the barbershop a
 4. If the barber is busy (doing haircut) and customers enter, but seat is
 
    available, the customer sit down and
-   wait [[1]]([2021-06 [seminár] Ďalšie synchronizačné úlohy: holičstvo, h2o, rieka, húsenková dráha - YouTube](https://youtu.be/IOeO6RDhhac)) [[2]](https://en.wikipedia.org/wiki/Sleeping_barber_problem)
-   .
+   wait [[1]](https://youtu.be/IOeO6RDhhac) [[2]](https://en.wikipedia.org/wiki/Sleeping_barber_problem).
 
 From the rules above it can be assumed, that coordiantion between customer and barber must be provided. Barber must give
 haircut and customer must get haircut concurrently.
@@ -170,5 +168,3 @@ of customers and size of waitingroom, use global variables:
 C = 5  # set customers count
 N = 3  # set max customers count in barbershop
 ```
-
-
