@@ -35,7 +35,7 @@ def get_haircut(i):
     """
 
     print("CUSTOMER: {} gets cut".format(i))
-    sleep(randint(3, 4) / 10)
+    sleep(randint(5, 10) / 10)
 
 
 def cut_hair():
@@ -45,7 +45,7 @@ def cut_hair():
 
     print()
     print("BARBER: cuts hair.")
-    sleep(randint(3, 4) / 10)
+    sleep(randint(5, 10) / 10)
 
 
 def balk(i):
@@ -57,7 +57,7 @@ def balk(i):
     """
 
     print("CUSTOMER: {} is waiting for a seat in waiting room.".format(i))
-    sleep(randint(7, 10) / 10)
+    sleep(randint(1, 3) / 10)
 
 
 def growing_hair(i):
