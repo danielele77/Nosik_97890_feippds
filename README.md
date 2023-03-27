@@ -127,7 +127,7 @@ After that in the infinit loop, are called ``wait`` functions at **SimpleBarrier
 was explained previously above. The **mutex** is used again. In this **mutex** thread, **savage**, cheks if the pot is
 not empty. If not, he tooks the portion, unlock **mutex** and eats. In case the pot is empty is the **empty_pot** signal
 is send, for which the **cooks** are waiting for. After the cooks filed up the pot he recieves the **full_pot** signal,
-where waits. (This was describe before in `cook` funtion part frfrom the cooks point of view).
+where waits. (This was describe before in `cook` funtion part from the cooks point of view).
 
 ```python
 def savage(savage_index, shared):
@@ -165,7 +165,7 @@ by **savage 0**, who noticed **cooks** and waits. The **cook 0**, **cook 1** and
 full, which is discoverd by **cook 2** which signalised it ot **savage** waiting at **full_pot**. The savage can eat and
 the savages can meet again. The procces is repeated in infinit lop.
 
-![](https://github.com/danielele77/Nosik_97890_feippds/blob/02/output.png)
+![](https://github.com/danielele77/Nosik_97890_feippds/blob/04/output.png)
 
 # Execution
 
