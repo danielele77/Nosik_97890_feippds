@@ -33,4 +33,4 @@ a GPU, and the last one was converted using a CPU.
 
 **Converted using CPU**
 
-![](https://github.com/danielele77/Nosik_97890_feippds/tree/05/images_for_conversion)
+![](https://github.com/danielele77/Nosik_97890_feippds/blob/05/host_grayscale_images/gray_host_f16.jpg)
