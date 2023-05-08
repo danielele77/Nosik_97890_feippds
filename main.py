@@ -53,7 +53,7 @@ def convert_img_to_grayscale_cpu(img_):
     for x in range(img_height):
         for y in range(img_width):
             R, G, B = img_[x, y]
-            gray_value = int(0.3 * R + 0.59 * G + 0.11 * B)
+            gray_value = int(0.299 * R + 0.587 * G + 0.114 * B)
             img_[x, y] = gray_value
 
     return img_
